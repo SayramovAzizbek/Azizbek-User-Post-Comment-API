@@ -1,0 +1,129 @@
+.site-body {
+    background-color: #c9b0b0af;
+}
+
+.container {
+    max-width: 1536px;
+    width: 100%;
+}
+
+.user-list,
+.post-list,
+.comment-list {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #863030;
+    overflow-y: scroll;
+    list-style: none;
+}
+
+.user-item,
+.post-item,
+.comment-item {
+    padding: 30px;
+    border: 1px solid;
+}
+
+.user-item-name {
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.user-item-username {
+    margin: 10px 0;
+    /* font-weight: 700; */
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.user-item-email {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.user-item-email:hover {
+    color: #ffffff;
+}
+
+.user-item-address-box {
+    margin: 20px 0;
+}
+
+.user-item-address-title,
+.user-item-company-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.user-item-address-title {
+    margin-bottom: 10px;
+}
+
+.user-item-address-link-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user-item-link {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.user-item-link::before {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-image: url("../images/location-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.user-item-phone::before {
+    background-image: url("../images/call-icon.png");
+}
+
+.user-item-website::before {
+    background-image: url("../images/website-icon.png");
+}
+
+.user-item-company-text {
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.user-item-btn,
+.post-item-btn {
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-weight: 700;
+    color: #000000;
+    background-color: #e0e037;
+    border: none;
+    border-radius: 20px;
+}
+
+.post-item-title,
+.comment-item-title {
+    margin: 0;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.post-item-text,
+.comment-item-text {
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.post-item-btn {
+    color: #ffffff;
+    background-color: #64af5d;
+}
